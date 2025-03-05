@@ -1,0 +1,73 @@
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+}
+
+.celula {
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.celula:hover {
+    background: #8f3838;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+.celula {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.celula:hover {
+    background: rgb(131, 2, 2);
+}
